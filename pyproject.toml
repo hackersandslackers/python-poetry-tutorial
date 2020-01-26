@@ -9,12 +9,17 @@ readme = "README.md"
 homepage = ""
 repository = "https://github.com/hackersandslackers/python-poetry-tutorial/"
 documentation = "https://hackersandslackers.com/python-poetry/"
-keywords = ["Poetry", "Virtual Environments", "Tutorial", "Packages", "Packaging"]
+keywords = ["Poetry",
+            "Virtual Environments",
+            "Tutorial",
+            "Packages",
+            "Packaging"]
 
 [tool.poetry.dependencies]
-python = "^3.7"
+Python = "^3.7"
 Requests = "*"
 Loguru = "*"
+importlib_metadata = "*"
 
 [tool.poetry.dev-dependencies]
 pytest = "*"

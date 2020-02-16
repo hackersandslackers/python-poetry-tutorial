@@ -1,5 +1,5 @@
 [tool.poetry]
-name = "poetry-tutorial-project"
+name = "poetry_tutorial_project"
 version = "0.1.0"
 description = "Simple Python project built with Poetry."
 authors = ["Todd Birchard <toddbirchard@gmail.com>"]
@@ -16,10 +16,9 @@ keywords = ["Poetry",
             "Packaging"]
 
 [tool.poetry.dependencies]
-Python = "^3.7"
-Requests = "*"
-Loguru = "*"
-importlib_metadata = "*"
+python = "^3.7"
+loguru = "*"
+psutil = "*"
 
 [tool.poetry.dev-dependencies]
 pytest = "*"
@@ -29,7 +28,7 @@ requires = ["poetry>=0.12"]
 build-backend = "poetry.masonry.api"
 
 [tool.poetry.scripts]
-init = "wsgi:main"
+run = "wsgi:main"
 
 [tool.poetry.urls]
 issues = "https://github.com/hackersandslackers/python-poetry-tutorial/issues"

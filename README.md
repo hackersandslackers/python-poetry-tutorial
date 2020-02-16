@@ -1,7 +1,7 @@
 # Python Poetry Tutorial
 
 ![Python](https://img.shields.io/badge/Python-v3.7-blue.svg?logo=python&longCache=true&logoColor=white&colorB=5e81ac&style=flat-square&colorA=4c566a)
-![Importlib_metadata](https://img.shields.io/badge/importlib_metadata-v0.12-blue.svg?longCache=true&logo=python&style=flat-square&logoColor=white&colorB=5e81ac&colorA=4c566a)
+![Psutil](https://img.shields.io/badge/psutil-v5.6.7-blue.svg?longCache=true&logo=python&style=flat-square&logoColor=white&colorB=5e81ac&colorA=4c566a)
 ![Loguru](https://img.shields.io/badge/Loguru-v0.4.1-blue.svg?longCache=true&logo=python&style=flat-square&logoColor=white&colorB=5e81ac&colorA=4c566a)
 ![GitHub Last Commit](https://img.shields.io/github/last-commit/google/skia.svg?style=flat-square&colorA=4c566a&colorB=a3be8c&logo=GitHub)
 [![GitHub Issues](https://img.shields.io/github/issues/hackersandslackers/python-poetry-tutorial.svg?style=flat-square&colorA=4c566a&logo=GitHub&colorB=ebcb8b)](https://github.com/hackersandslackers/python-poetry-tutorial/issues)

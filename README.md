@@ -17,8 +17,9 @@ Run the following to install and launch the demo app using [Poetry](https://pyth
 ```shell
 $ git clone https://github.com/hackersandslackers/python-poetry-tutorial.git
 $ cd python-poetry-tutorial
+$ poetry shell
 $ poetry install
-$ poetry run init
+$ poetry run
 ```
 
 -----

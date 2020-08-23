@@ -3,7 +3,7 @@ loguru==0.4.1
 more-itertools==8.2.0
 packaging==20.1
 pluggy==0.13.1
-psutil==5.6.7
+psutil==5.7.2
 py==1.8.1
 pyparsing==2.4.6
 pytest==5.3.5

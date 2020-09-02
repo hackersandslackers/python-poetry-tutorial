@@ -130,3 +130,6 @@ dmypy.json
 
 # OSX
 .DS_Store
+
+# Etc
+.idea

@@ -1,0 +1,36 @@
+[tool.poetry]
+name = "poetry_tutorial_project"
+version = "0.1.0"
+description = "Simple Python project built with Poetry."
+authors = ["Todd Birchard <toddbirchard@gmail.com>"]
+maintainers = ["Todd Birchard <toddbirchard@gmail.com>"]
+license = "MIT"
+readme = "README.md"
+homepage = ""
+repository = "https://github.com/hackersandslackers/python-poetry-tutorial/"
+documentation = "https://hackersandslackers.com/python-poetry/"
+keywords = [
+    "Poetry",
+    "Virtual Environments",
+    "Tutorial",
+    "Packages",
+    "Pip"
+]
+
+[tool.poetry.dependencies]
+python = "^3.8"
+loguru = "*"
+psutil = "*"
+
+[tool.poetry.dev-dependencies]
+pytest = "*"
+
+[build-system]
+requires = ["poetry>=0.12"]
+build-backend = "poetry.masonry.api"
+
+[tool.poetry.scripts]
+run = "wsgi:script"
+
+[tool.poetry.urls]
+issues = "https://github.com/hackersandslackers/python-poetry-tutorial/issues"

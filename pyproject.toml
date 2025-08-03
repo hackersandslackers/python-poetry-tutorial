@@ -6,7 +6,7 @@ authors = ["Todd Birchard <toddbirchard@gmail.com>"]
 maintainers = ["Todd Birchard <toddbirchard@gmail.com>"]
 license = "MIT"
 readme = "README.md"
-homepage = ""
+homepage = "https://hackersandslackers.com/python-poetry-package-manager"
 repository = "https://github.com/hackersandslackers/python-poetry-tutorial/"
 documentation = "https://hackersandslackers.com/python-poetry/"
 keywords = [
@@ -22,7 +22,7 @@ python = "^3.8"
 loguru = "*"
 psutil = "*"
 
-[tool.poetry.dev-dependencies]
+[tool.poetry.group.dev.dependencies]
 pytest = "*"
 
 [build-system]

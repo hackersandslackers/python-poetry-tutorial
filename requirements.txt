@@ -1,7 +1,7 @@
 attrs==20.1.0
 loguru==0.5.3
 more-itertools==8.5.0
-packaging==20.4
+packaging==20.9
 pluggy==0.13.1
 psutil==5.7.2
 py==1.9.0
